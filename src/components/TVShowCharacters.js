@@ -8,7 +8,7 @@ import {
   removeComments,
 } from "../helpers/createLinkMap";
 
-function ExampleComponent() {
+function TVShowCharacters() {
   useEffect(() => {
     const linkMap = createLinkMapFromNoIds(MermaidDoc);
 
@@ -28,4 +28,4 @@ function ExampleComponent() {
   );
 }
 
-export default ExampleComponent;
+export default TVShowCharacters;

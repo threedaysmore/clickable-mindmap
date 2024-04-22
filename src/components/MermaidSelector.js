@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import Scrubs from "./Scrubs";
+import Scrubs from "./TVShowCharacters";
 
 function MermaidSelector() {
   const [selected, setSelected] = useState("None");
